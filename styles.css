@@ -1,0 +1,18 @@
+body {
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  width: 96vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid grey;
+}
+
+.line {
+  display: flex;
+}
