@@ -4,8 +4,18 @@ body {
   justify-content: center;
 }
 
+#but-container {
+  display: flex;
+  flex-direction: column;
+  height: 96vh;
+}
+button {
+  flex-grow: 1;
+}
+
 #container {
   width: 96vh;
+  height: 96vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
