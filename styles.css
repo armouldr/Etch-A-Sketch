@@ -2,27 +2,57 @@ body {
   margin: 1%;
   display: flex;
   justify-content: center;
+  gap: 10px;
+}
+h1 {
+  font-family: "Courier New", monospace;
 }
 
 #but-container {
   display: flex;
   flex-direction: column;
-  height: 96vh;
-}
-button {
-  flex-grow: 1;
+  justify-content: center;
 }
 
+button {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #008cba;
+  text-decoration: none;
+  border: 2px solid #008cba;
+  color: white;
+  transition-duration: 0.3s;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
 #container {
-  width: 96vh;
-  height: 96vh;
+  width: 64vh;
+  height: 64vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid grey;
+  border: 3px solid grey;
 }
 
 .line {
   display: flex;
+}
+
+#title {
+  text-align: center;
+}
+
+#pick {
+  width: 100%;
+  height: 7%;
+  background-color: transparent;
+  border: none;
+}
+#picklabel {
+  text-align: center;
 }

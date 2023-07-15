@@ -6,11 +6,21 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="but-container">
-      <button id="gsize">Select grid size</button>
-      <button id="reset">Reset the grid</button>
+    
+    
+      <div id="but-container">
+        <input id="pick" type="color" value="#ffffff"/>
+        <label for="pick" id="picklabel">Pick Color</label>
+        <button id="dark">Darkening mode</button>
+        <button id="color">Color mode</button>
+        <button id="reset">Clear</button>
+        <button id="gsize">Select size</button>
+      </div>
+      <div id="content-container">
+        <h1 id="title">Etch-a-sketch</h1>
+        <div id="container"></div>
+      </div>
+      
     </div>
-
-    <div id="container"></div>
   </body>
 </html>
